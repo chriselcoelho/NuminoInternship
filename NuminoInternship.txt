@@ -1,0 +1,79 @@
+#important commands used
+
+
+npx create-react-app webapp
+
+
+cd webapp
+npm start
+
+
+
+
+mkdir database
+
+cd .\database\
+
+npm init
+
+npm install --save express express-handlebars mysql body-parser
+
+
+npm install --save-dev nodemon
+
+
+CREATE DATABASE CHRISEL;
+
+USE CHRISEL;
+
+
+nodemon server.js
+node
+
+
+OBS
+NVENC Error: Max B-frames setting (2) is more than encoder supports (0).
+
+
+rdb dba user & pass
+chrisel
+chriselcoelho
+
+
+CREATE DATABASE CHRISEL;
+
+USE CHRISEL;
+
+CREATE TABLE student(
+	id int auto_increment primary key,
+	rollno varchar(6) not null,
+        firstName varchar(255) not null,
+	lastName varchar(255) not null,
+	department enum('MECH', 'ECOMP', 'COMP', 'IT') not null,
+	dob date,
+        email varchar(255),
+	phoneno varchar(10)
+);
+
+
+
+
+
+
+
+
+
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
